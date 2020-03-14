@@ -4,12 +4,12 @@
   "description": "your description",
   "main": "app",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "babel-node src/app.js",
     "start": "set NODE_ENV=development& nodemon",
-    "build": "npx webpack"
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "wqs",
   "license": "ISC",
   "dependencies": {
     "koa": "^2.11.0",
